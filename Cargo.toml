@@ -1,0 +1,11 @@
+[package]
+name = "libsn-sys"
+version = "0.1.0"
+authors = ["Timidger <APragmaticPlace@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.20.0"
